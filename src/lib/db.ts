@@ -24,7 +24,7 @@ interface GastoLogDB extends DBSchema {
     value: Categoria;
     indexes: {
       "by-usuario": string;
-      "by-usuario-activa": [string, boolean];
+      "by-usuario-activa": [string, number];
     };
   };
   presupuestos: {
